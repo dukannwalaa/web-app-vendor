@@ -1,0 +1,28 @@
+{
+  "hosting": {
+    "site": "dw-vendor-74106",
+
+    "public": "public"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "dw-vendor",
+          "appId": "1:418449219919:android:ca49b26d96409320f8253a",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "dw-vendor",
+          "configurations": {
+            "android": "1:418449219919:android:ca49b26d96409320f8253a",
+            "ios": "1:418449219919:ios:d8a9d08e8e9683f7f8253a",
+            "web": "1:418449219919:web:1ac635643c247cbdf8253a"
+          }
+        }
+      }
+    }
+  }
+}
